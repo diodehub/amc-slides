@@ -1,0 +1,27 @@
+% Define a new counter for methodology slides
+\newcounter{methodologysection}
+\setcounter{methodologysection}{0}
+
+
+
+\newcommand{\methodologyslide}[3]{
+    \stepcounter{methodologysection}
+    \begin{frame}[#1]{Methodology [\themethodologysection] \\ #2}
+    % Title directly below frame title
+    #3 % Insert the provided main content here
+    \end{frame}
+}
+
+% Define a new counter for reference slides
+
+% Define a new counter for result slides
+\newcounter{resultsection}
+\setcounter{resultsection}{0}
+
+\newcommand{\resultslide}[3]{
+    \stepcounter{resultsection}
+    \begin{frame}[#1]{Results [\theresultsection] : #2} % use \\ before #2 to add a line break
+    % Title directly below frame title
+    #3 % Insert the provided main content here
+    \end{frame}
+}

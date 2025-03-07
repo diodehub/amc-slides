@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.7 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.7">
+  <diagram name="Page-1" id="H2IigDHyVsFefAWN87eN">
+    <mxGraphModel dx="954" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Dc_N5k8354I06E3vj6PY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=14;" parent="1" source="Dc_N5k8354I06E3vj6PY-1" target="Dc_N5k8354I06E3vj6PY-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc_N5k8354I06E3vj6PY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=14;" parent="1" source="Dc_N5k8354I06E3vj6PY-1" target="Dc_N5k8354I06E3vj6PY-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc_N5k8354I06E3vj6PY-1" value="FM Generation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="120" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4DMKjZbjTc3HrvHM1oSN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=14;" parent="1" source="Dc_N5k8354I06E3vj6PY-2" target="Dc_N5k8354I06E3vj6PY-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4DMKjZbjTc3HrvHM1oSN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=14;" parent="1" source="Dc_N5k8354I06E3vj6PY-2" target="Dc_N5k8354I06E3vj6PY-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc_N5k8354I06E3vj6PY-2" value="Direct Method&amp;nbsp;&lt;div&gt;(OR Parameter Variation Method)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="320" y="80" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4DMKjZbjTc3HrvHM1oSN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=14;" parent="1" source="Dc_N5k8354I06E3vj6PY-3" target="Dc_N5k8354I06E3vj6PY-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc_N5k8354I06E3vj6PY-3" value="Indirect Method" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="320" y="240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc_N5k8354I06E3vj6PY-4" value="Varactor Diode Method" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="560" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc_N5k8354I06E3vj6PY-5" value="Reactance Modulators" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="560" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc_N5k8354I06E3vj6PY-6" value="Armstrong&amp;nbsp;&lt;div&gt;Method&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontFamily=Times New Roman;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="560" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,25 @@
+\begin{tikzpicture}
+    
+
+    \draw[->] (-4,0) -- (4,0) node[right] {\(x\)};
+    \draw[->] (0,-1) -- (0,3) node[above] {\(f(x)\)};
+    
+    % Define alpha
+    \def\alphaa{0.1}
+
+    % Plot Leaky ReLU
+    \draw[thick,blue] (-3,-3*\alphaa) -- (0,0) -- (3,3);
+
+    % Labels
+    \node[left] at (-2,-0.5) {\(\alpha x\)};
+    \node[right] at (2,1) {\(x\)};
+    \node[above] at (1,2) {\(x\)};
+
+    
+    % Gridlines
+    \draw[dashed,gray] (-2,-2*\alphaa) -- (-2,0);
+    \draw[dashed,gray] (2,2) -- (2,0);
+    \draw[dashed,gray] (0,2) -- (2,2);
+
+
+\end{tikzpicture}

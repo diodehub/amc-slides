@@ -1,0 +1,64 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.7 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.7">
+  <diagram name="Page-1" id="RzzOeVVuILVj-rKlgHVC">
+    <mxGraphModel dx="954" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="As3hOwQw32k4uwxyKeH5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=15;" parent="1" source="As3hOwQw32k4uwxyKeH5-1" target="As3hOwQw32k4uwxyKeH5-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="As3hOwQw32k4uwxyKeH5-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=15;" parent="1" source="As3hOwQw32k4uwxyKeH5-1" target="As3hOwQw32k4uwxyKeH5-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="As3hOwQw32k4uwxyKeH5-1" value="Source Generation" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;fillColor=none;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="60" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="As3hOwQw32k4uwxyKeH5-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=15;" parent="1" source="As3hOwQw32k4uwxyKeH5-2" target="As3hOwQw32k4uwxyKeH5-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="As3hOwQw32k4uwxyKeH5-2" value="&lt;b&gt;Digital Source&lt;/b&gt;&lt;div&gt;Bernoulli Trial&lt;/div&gt;&lt;div&gt;10K Bitstream&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontFamily=Times New Roman;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="160" y="30" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="As3hOwQw32k4uwxyKeH5-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=15;" parent="1" source="As3hOwQw32k4uwxyKeH5-3" target="As3hOwQw32k4uwxyKeH5-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="As3hOwQw32k4uwxyKeH5-3" value="&lt;b&gt;Digital Modulation&lt;/b&gt;&lt;div&gt;Symbol Mapping&lt;/div&gt;&lt;div&gt;Pulse Shaping&lt;/div&gt;&lt;div&gt;RRC Filter&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontFamily=Times New Roman;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="320" y="30" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="As3hOwQw32k4uwxyKeH5-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=15;" parent="1" source="As3hOwQw32k4uwxyKeH5-4" target="As3hOwQw32k4uwxyKeH5-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="As3hOwQw32k4uwxyKeH5-4" value="&lt;b&gt;Analog Source&lt;/b&gt;&lt;div&gt;Audio Conversion&lt;/div&gt;&lt;div&gt;Baseband I/Q&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontFamily=Times New Roman;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="160" y="310" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="As3hOwQw32k4uwxyKeH5-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=15;" parent="1" source="As3hOwQw32k4uwxyKeH5-5" target="As3hOwQw32k4uwxyKeH5-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="As3hOwQw32k4uwxyKeH5-5" value="&lt;b&gt;Analog Modulation&lt;/b&gt;&lt;div&gt;WBFM/AM Variants Resampling&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontFamily=Times New Roman;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="320" y="310" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="As3hOwQw32k4uwxyKeH5-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=15;" parent="1" source="As3hOwQw32k4uwxyKeH5-7" target="As3hOwQw32k4uwxyKeH5-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="As3hOwQw32k4uwxyKeH5-7" value="&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;&lt;b&gt;AWGN Injection&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Complex Gaussian Noise&lt;/div&gt;&lt;div&gt;SNR 0-30dB&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontFamily=Times New Roman;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="420" y="170" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="As3hOwQw32k4uwxyKeH5-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=15;" parent="1" source="As3hOwQw32k4uwxyKeH5-9" target="As3hOwQw32k4uwxyKeH5-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="As3hOwQw32k4uwxyKeH5-9" value="&lt;b&gt;Frame Processing&lt;/b&gt;&lt;div&gt;Transient Removal&lt;/div&gt;&lt;div&gt;1024-sample&amp;nbsp;&lt;/div&gt;&lt;div&gt;Energy Norm.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontFamily=Times New Roman;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="580" y="30" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="As3hOwQw32k4uwxyKeH5-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=15;" parent="1" source="As3hOwQw32k4uwxyKeH5-12" target="As3hOwQw32k4uwxyKeH5-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="As3hOwQw32k4uwxyKeH5-12" value="&lt;b&gt;Storage&lt;/b&gt;&lt;div&gt;3D Tensor&lt;/div&gt;&lt;div&gt;Compression&lt;/div&gt;&lt;div&gt;1.2GB Raw&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontFamily=Times New Roman;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="580" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="As3hOwQw32k4uwxyKeH5-14" value="&lt;b&gt;Validation&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Spectral Checks&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;SNR Verification&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontFamily=Times New Roman;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="580" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

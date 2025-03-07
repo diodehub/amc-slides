@@ -1,0 +1,68 @@
+% This file contains custom tweaks for the Thapathali theme
+
+% =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+% COLOUR THEME AND SLIDE STYLE SELECTION FOR THAPATHALI Campus
+% =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+\usetheme{Madrid} % Simple and clean slide interface
+\usecolortheme{Dove} % For white background
+\setbeamertemplate{navigation symbols}{} % Remove Navigation Symbols
+
+\usepackage{helvet} % Use Helvetica for the main text
+
+% =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+% Center Align Frame Titles and make bold 
+% =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+% Redefine the frametitle template to 
+% center-align all frame titles and make them bold
+\setbeamerfont{frametitle}{series=\bfseries,size=\Large}
+\setbeamertemplate{frametitle}{
+    \vspace{0.2em}
+    \begin{centering}
+        \usebeamerfont{frametitle}\insertframetitle\par
+    \end{centering}
+    % \vspace{0.2em}
+}
+% ===========================
+
+
+
+% Set font sizes globally (not 100% correct, but nearly works and is there. , unnoticable )
+\setbeamerfont{frametitle}{size=\LARGE} % Frame titles
+\setbeamerfont{framesubtitle}{size=\large} % Subtitles
+\setbeamerfont{normal text}{size=\Large} % Regular text
+
+
+
+% edit the footeer to makek page and date number:::
+\setbeamertemplate{footline}{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,left]{date in head/foot}%
+    \hspace*{2ex}\insertshortdate
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,right]{page number in head/foot}%
+    \insertframenumber{} / \inserttotalframenumber\hspace*{2ex}
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+
+% Adjust line spacing in the table of contents
+\setbeamertemplate{section in toc}{\inserttocsectionnumber. \inserttocsection} % Adjust section spacing
+% \setbeamertemplate{subsection in toc}{\inserttocsectionnumber.\inserttocsubsectionnumber. \inserttocsubsection\par\vspace{1mm}} % Adjust subsection spacing 
+
+\setbeamertemplate{itemize item}{\large\textbullet} % Regular item
+\setbeamertemplate{itemize subitem}{\large $\diamond$} % Regular item
+
+
+
+% Adjust line spacing for the table of contents
+\setbeamertemplate{section in toc}{\large \inserttocsectionnumber. \inserttocsection \vspace{1em}}  % Adjust space after each section
+% \setbeamertemplate{subsection in toc}{\hspace{5mm}\inserttocsectionnumber.\inserttocsubsectionnumber. \inserttocsubsection\par\vspace{2mm}}  % Adjust space after each subsection
+
+
+% \usepackage{helvet} % Use Helvetica for the main text
+% \renewcommand{\familydefault}{\sfdefault} % Set the default font family to sans-serif (Helvetica)
+% \usepackage{amsmath} % For advanced math typesetting
+% \usepackage{unicode-math} % For setting math fonts
+% \setmathfont{Latin Modern Math} %
