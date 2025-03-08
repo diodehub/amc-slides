@@ -117,12 +117,12 @@
 \methodologyslide{t}{Trainable Parameters}{
     \textbf{\large LSTM}
     \begin{itemize}
-        \item Input size: 256 features per time step
-        \item Hidden size: 256 units in hidden state
-        \item 4 weight matrices for input, forget, cell, and output gates
-        \item Weights for each gate: \( 256 \times 256 \)
-        \item Biases: 4 vectors of size 256
-        \item Total parameters: 525,312
+        \item Input size: 256 features per time step \vfill
+        \item Hidden size: 256 units in hidden state \vfill
+        \item 4 weight matrices for input, forget, cell, and output gates \vfill
+        \item Weights for each gate: \( 256 \times 256 \) \vfill
+        \item Biases: 4 vectors of size 256 \vfill
+        \item Total parameters: 525,312 \vfill
     \end{itemize}
 }
 
@@ -255,16 +255,16 @@
 % Frame for GPU and RTL-SDR
 \methodologyslide{t}{Instrumentation}{
   \begin{itemize}
-      \item \textbf{GPU (Graphics Processing Units):}
+      \item \textbf{GPU (Graphics Processing Units):} \vfill
       \begin{itemize}
-          \item Essential for handling computational complexity in Neural Networks.
-          \item Real-time processing achieved through parallelism of GPUs. \\[1em]
+          \item Essential for handling computational complexity in Neural Networks. \vfill
+          \item Real-time processing achieved through parallelism of GPUs. \vfill
       \end{itemize} 
       \item \textbf{RTL-SDR}
       \begin{itemize}
-          \item Cost-effective tool for capturing RF frequencies (500 kHz - 1.75 GHz).
-          \item Provides raw I/Q samples for amplitude and phase extraction.
-          \item Ideal for real-time signal processing with tools like GNU Radio.
+          \item Cost-effective tool for capturing RF frequencies (500 kHz - 1.75 GHz). \vfill
+          \item Provides raw I/Q samples for amplitude and phase extraction. \vfill
+          \item Ideal for real-time signal processing with tools like GNU Radio. \vfill
       \end{itemize}
   \end{itemize}
 }
@@ -272,16 +272,16 @@
 % Frame for MATLAB & Communication Toolbox, and GNU Radio
 \methodologyslide{t}{Instrumentation}{
   \begin{itemize}
-      \item \textbf{GNU Radio:}
+      \item \textbf{GNU Radio:} \vfill
       \begin{itemize}
-          \item Open-source signal processing toolkit for SDR.
-          \item Enables RF transmission, reception, and preprocessing.
-          \item Supports real-time data acquisition with RTL-SDR hardware. \\[1em]
+          \item Open-source signal processing toolkit for SDR. \vfill
+          \item Enables RF transmission, reception, and preprocessing. \vfill
+          \item Supports real-time data acquisition with RTL-SDR hardware. \vfill
       \end{itemize}
-      \item \textbf{PyQt6}
+      \item \textbf{PyQt6} \vfill
       \begin{itemize}
-          \item Used for GUI Development of Signal Visualizer
-          \item Provides a set of Python bindings for the Qt application framework.
+          \item Used for GUI Development of Signal Visualizer \vfill
+          \item Provides a set of Python bindings for the Qt application framework. \vfill
       \end{itemize}
   \end{itemize}
 }
@@ -289,17 +289,17 @@
 % Frame for PyTorch and Other Software Tools
 \methodologyslide{t}{Instrumentation}{
   \begin{itemize}
-      \item \textbf{PyTorch:}
+      \item \textbf{PyTorch:} \vfill
       \begin{itemize}
-          \item Builds the CNN-LSTM hybrid architecture for AMC.
-          \item Facilitates model training, validation, and deployment.
-          \item Supports dataset preparation and performance evaluation. \\[1em]
+          \item Builds the CNN-LSTM hybrid architecture for AMC \vfill
+          \item Facilitates model training, validation, and deployment \vfill
+          \item Supports dataset preparation and performance evaluation. \vfill
       \end{itemize}
-      \item \textbf{Other Software Tools:}
+      \item \textbf{Other Software Tools:} \vfill
       \begin{itemize}
-          \item \textbf{LTSpice:} FM transmitter circuit simulation
-          \item \textbf{Matplotlib:} Visualization of signals and training metrics
-          \item \textbf{Scikit-learn:} Data preprocessing and baseline classifier evaluation
+          \item \textbf{LTSpice:} FM transmitter circuit simulation \vfill
+          \item \textbf{Matplotlib:} Visualization of signals and training metrics \vfill
+          \item \textbf{Scikit-learn:} Data preprocessing and baseline classifier evaluation \vfill
       \end{itemize}
   \end{itemize}
 }
